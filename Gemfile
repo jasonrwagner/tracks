@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '1.9.3'
 
 gem 'rails'
 
@@ -73,4 +74,9 @@ group :test do
   # uncomment to be able to make screenshots from scenarios
   #gem "capybara-screenshot"
   #gem "launchy"
+end
+
+group :production do
+  gem 'pg'
+  gem 'thin'
 end
