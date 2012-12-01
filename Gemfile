@@ -14,6 +14,7 @@ gem 'heroku'
 gem 'thin'
 gem 'taps'
 gem "sqlite3", :group => [:development, :test]
+gem 'bcrypt-ruby'
 
 
 gem "mysql2"
